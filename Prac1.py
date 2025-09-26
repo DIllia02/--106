@@ -89,10 +89,25 @@ elif d < 0:
 print()
 
 #Завдання5
-#s = s0 + v0 * t + 1/2 * g * t^2
-#FV = PV *((1 + INT/100)^YRS)
-#G = 4 * math.pi^2 * (a^3/p^2(m1 + m2))
-#c = math.sqrt(a^2 + b^2 - 2*a*b*math.cos(y))
+s0 = float(input('Введіть s0: '))
+v0 = float(input('Введіть v0: '))
+t = float(input('Введіть t '))
+g = 9.81
+INT = float(input('Введіть INT: '))
+YRS = float(input('Введіть YRS: '))
+a = float(input('Введіть a: '))
+b = float(input('Введіть b: '))
+y = float(input('Введіть y: '))
+m1 = float(input('Введіть m1: '))
+m2 = float(input('Введіть m2: '))
+p = float(input('Введіть p: '))
+PV = float(input('Введіть PV: '))
+
+s = s0 + v0 * t + 1/2 * g * t^2
+FV = PV *((1 + INT/100)^YRS)
+G = 4 * math.pi^2 * (a^3/p^2(m1 + m2))
+c = math.sqrt(a^2 + b^2 - 2*a*b*math.cos(y))
+
 
 #Завдання6
 x = float(input('Введіть x: '))
